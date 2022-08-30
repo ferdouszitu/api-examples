@@ -1,0 +1,11 @@
+#countries-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.country {
+    padding: 20px;
+    border: 2px solid salmon;
+    border-radius: 15px;
+}
